@@ -10,7 +10,7 @@
       </li>
 
       <li class="nav-item">
-        <router-link to="/products" class="nav-link">
+        <router-link to="/bills" class="nav-link">
           <i class="nav-icon fas fa-list orange"></i>
           <p>
             Bills
@@ -23,14 +23,6 @@
           <router-link to="/users" class="nav-link">
             <i class="fa fa-users nav-icon blue"></i>
             <p>Users & customers</p>
-          </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/product/category" class="nav-link">
-            <i class="nav-icon fas fa-list-ol green"></i>
-            <p>
-              Bills
-            </p>
           </router-link>
         </li>
       @endcan

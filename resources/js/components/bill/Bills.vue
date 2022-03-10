@@ -89,7 +89,7 @@
                         </div>
                         <div class="form-group">
                             <label>month</label>
-                            <input v-model="form.month" type="text" name="month"
+                            <input v-model="form.month" type="date" name="month"
                                 class="form-control" :class="{ 'is-invalid': form.errors.has('month') }">
                             <has-error :form="form" field="month"></has-error>
                         </div>
